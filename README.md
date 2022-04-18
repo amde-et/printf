@@ -1,49 +1,7 @@
 # printf
-_printf
-_printf is a simple custom printf function that formats and prints data to the standard output.
+# printf repository for create your repo
 
-Description
-_printf() functiion formats and prints data to the standard output according to the format specified.
+![image](https://user-images.githubusercontent.com/99494058/163788549-9632a649-aa37-4a12-baed-c99a1e54ee57.png)
+![image](https://user-images.githubusercontent.com/99494058/163788643-5275226b-c1e7-4326-b96e-12092bb09f54.png)
 
-The function has the following conversion specifies:
-
-%c - prints a character
-%d - prints a integer
-%s - prints a string
-%i - prints an integer
-% - prints percentage;
-%b - print binary numbers
-%u - print unsigned integers of type int
-%x - print hexadecimal numbers in lowercase
-%X - print hexadecimal numbers in uppercase
-%o - print octal numbers
-%r - prints string in reverse order
-%R - prints string in ROT13 encoding
-%p - print pointer addresses
-' ' - print a space
-- modifier for unsigned conversions
-+: prints a plus sign in front of the number
-Installation
-you can clone this repository and use the function on your local machine.
-
-git clone https://github.com/Abinet508/printf.git
-Usage
-include the main.h header file on the function for using _printf().
-All the files are to be compiled on Ubuntu 14.04 LTS
-Compile your code with `gcc -Wall -Werror -Wextra -pedantic *.c`
-#include <stdio.h>
-#include "main.h"
-
-int main(void)
-{
-    int i = 10;
-    int print;
-    char *s = "printf by Teddy & Mark";
-    _printf("%d %s %c\n", i, s, 'c');
-     print =  _printf("%d", s); /* get number of characters */
-     printf("%d\n", print); /* print number of characters */
-    return 0;
-}
-
-Copyright
-Copyright (c) 2022 Amdebirhan Abebe Abel Yitages
+![68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f7648314854486871374249457568494475456332577263324c675a6967734a455744523536414c754446525a76392d6a714367484e4875424849422d664c727262777037744a38623771](https://user-images.githubusercontent.com/99353329/163789475-45528aff-2bd4-43ee-80f5-78d191096eaf.png)

@@ -1,0 +1,2 @@
+Correct output - case: _\n\nScore: 0 out of 1 points\n\nReason:\n\nmsg - [Got]\nHolberton School !\nHolberton School !\nHolberton School !\nHolberton School !\nLengths differ.\n\n(92 chars long)\n[stderr]: \n(0 chars long)\n[Expected]\nHolberton School !\nHolberton School !\nHolberton School !\nHolberton School !\nHolberton School !\nHolberton School!\nHolberton School !\nHolberton School!\n\n(150 chars long)\n[stderr]: [Anything]\n(0 chars long)\n\nFiles: main_79.c\n\nHandled malloc return\n\nReturn SUCCESS"
+

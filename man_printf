@@ -1,0 +1,29 @@
+.\" Manpage for _printf.
+.TH _printf 1 "16 Mar 2021" "1.0" "_printf manpage"
+.so man1./_printf
+.SH NAME
+    _printf \- format and print data
+.SH SYNOPSIS
+    _printf [FORMAT] ARGUMENT...
+.SH DESCRIPTION
+    Prints ARGUMENTS acording to format.
+.br
+	%% prints one %
+.br
+	%s prints a string
+.br
+	%c prints a character
+.br
+	%d prints an integer
+.br
+	%i prints an integer
+.br
+	%r prints a string in reverse
+.SH EXAMPLE IMPLEMENTATION
+    _printf("Hello World!");
+.SH RETURN VALUE
+    Return: the length of the string that is printing.
+.SH BUGS
+    No known bugs.
+.SH AUTHOR
+    Written by Salomé Grisales and Natalia Vera
